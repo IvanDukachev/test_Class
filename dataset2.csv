@@ -1,19 +1,3 @@
-% Dataset used in the tabular data benchmark https://github.com/LeoGrin/tabular-benchmark, transformed in the same way. This dataset belongs to the "classification on numerical features" benchmark.
-%         Original source: https://www.kaggle.com/competitions/GiveMeSomeCredit/overview Please give credit to the original source if you use this dataset.
-@RELATION credit
-
-@ATTRIBUTE RevolvingUtilizationOfUnsecuredLines REAL
-@ATTRIBUTE age INTEGER
-@ATTRIBUTE NumberOfTime30-59DaysPastDueNotWorse INTEGER
-@ATTRIBUTE DebtRatio REAL
-@ATTRIBUTE MonthlyIncome REAL
-@ATTRIBUTE NumberOfOpenCreditLinesAndLoans INTEGER
-@ATTRIBUTE NumberOfTimes90DaysLate INTEGER
-@ATTRIBUTE NumberRealEstateLoansOrLines INTEGER
-@ATTRIBUTE NumberOfTime60-89DaysPastDueNotWorse INTEGER
-@ATTRIBUTE NumberOfDependents REAL
-@ATTRIBUTE SeriousDlqin2yrs {0, 1}
-
 RevolvingUtilizationOfUnsecuredLines,age,NumberOfTime30-59DaysPastDueNotWorse,DebtRatio,MonthlyIncome,NumberOfOpenCreditLinesAndLoans,NumberOfTimes90DaysLate,NumberRealEstateLoansOrLines,NumberOfTime60-89DaysPastDueNotWorse,NumberOfDependents,SeriousDlqin2yrs
 0.0069995,38,0,0.30215034,5440.0,4,0,1,0,3.0,0
 0.704591673,63,0,0.47144107,8000.0,9,0,1,0,0.0,0
